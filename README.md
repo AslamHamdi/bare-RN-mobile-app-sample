@@ -1,3 +1,3 @@
 # Apps build using react native cli
 
-APK available at android/build/outputs/apk/release/app-release.apk
+APK available [here](https://drive.google.com/drive/folders/1KvLRfAuOdwv32q7lt9i57hweot4mpp2k)
