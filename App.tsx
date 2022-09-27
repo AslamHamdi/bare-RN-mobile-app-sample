@@ -12,6 +12,7 @@ import Home from './components/home'
 import NewForm from './components/newForm'
 import FormList from './components/formList'
 import ThreeD from './components/threeD'
+import ThreeDTwo from './components/threeDTwo'
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -23,7 +24,7 @@ const Routes = [
   { route: 'Home', name: 'Home', component: Home, icon: HomeIcon },
   { route: 'Add', name: 'New Form', component: NewForm, icon: AddIcon },
   { route: 'FormList', name: 'Form List', component: FormList, icon: FormIcon },
-  { route: 'ThreeD', name: '3D Sample', component: ThreeD, icon: ThreeDIcon }
+  { route: 'ThreeD', name: '3D Sample', component: ThreeDTwo, icon: ThreeDIcon }
 ]
 
 const CustomTabBarButton = ({children, onPress}) => (

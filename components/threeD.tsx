@@ -122,9 +122,14 @@ const ThreeD = () => {
       asset: require('../assets/3D/delonghi-kettle/source/house/house.obj')
     });
 
-    // // const obj = await loadGLTFAsync({
-    // //   asset: require('../assets/3D/delonghi-kettle/source/house/source/DibesferGardenHouse.glb')
-    // // });
+
+    // const obj = await loadGLTFAsync({
+    //   asset: require('../assets/3D/delonghi-kettle/source/house/source/DibesferGardenHouse.glb')
+    // });
+
+    // const obj = await loadGLTFAsync({
+    //   asset: require('../assets/3D/click2.glb')
+    // });
 
     obj.traverse(function(object) {
       if (object instanceof THREE.Mesh) {
@@ -150,6 +155,7 @@ const ThreeD = () => {
 
       gl.endFrameEXP();
     };
+    console.log("CAMERA: ", camera)
     render();
   };
 

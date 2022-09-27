@@ -22,6 +22,6 @@ module.exports = (async () => {
   module.exports = {
     resolver: {
       sourceExts: ['js', 'jsx', 'json', 'ts', 'tsx', 'cjs'],
-      assetExts: ['glb', 'png', 'jpg', 'svg', 'ttf', 'obj', 'mtl', 'gltf','xpng', 'xjpg', 'xjpeg', 'html', 'fcscript'],
+      assetExts: ['glb', 'png', 'jpg', 'svg', 'ttf', 'obj', 'mtl', 'gltf', 'fbx', 'xpng', 'xjpg', 'xjpeg', 'html', 'fcscript', 'html'],
     },
   }
